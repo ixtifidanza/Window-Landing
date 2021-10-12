@@ -1,0 +1,205 @@
+.about {
+    margin: 159px 0 90px;
+
+    /* &-container {
+       
+    } */
+
+    &-title {
+        width: 100%;
+        background-image: url(../img/about-title.png);
+        background-repeat: no-repeat;
+        background-size: 75% 100%;
+        padding: 8px 30px 8px 50px;
+        color: #fff;
+        font-size: 32px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 56px;
+    }
+
+    &-block {
+        width: 330px;
+        padding: 28px 18px;
+        background: #E8F6FF;
+
+        &__sec {
+            width: 330px;
+            border: 6px solid #2F6DCE;
+            border-radius: 6px;
+            padding: 28px 18px;
+            margin-top: 18px;
+        }
+
+        &__title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+    }
+
+    &-list {
+        line-height: 24px;
+        text-align: start;
+
+        &__item {
+            list-style: none;
+        }
+
+        &__item2 {
+            color: #484848;
+            list-style: none;
+            position: relative;
+            padding-left: 30px;
+            line-height: 25px;
+
+            &::before {
+                position: absolute;
+                content: "";
+                background-color: #2F6DCE;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                left: 5px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    &-text {
+        margin-left: 81px;
+
+        &__title {
+            color: #000;
+            font-size: 24px;
+        }
+
+        &__txt {
+            font-size: 18px;
+            color: #2D2D2D;
+            line-height: 24px;
+            margin-top: 18px;
+        }
+
+        &__war {
+            display: flex;
+            color: #E05C5C;
+            margin-top: 34px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        &__icon {
+            margin-right: 9px;
+        }
+
+        &__bottom {
+            margin-top: 39px;
+            text-align: center;
+
+            p {
+                margin-top: 18px;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        &__btn {
+            text-transform: uppercase;
+            outline: none;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), #005AE9;
+            color: #fff;
+            font-size: 22px;
+            padding: 24px 51px;
+            border: 1px solid #005AE9;
+            border-radius: 71px;
+            box-shadow: 0px 22px 44px -12px #005AE9;
+        }
+    }
+
+    &-sale {
+        position: relative;
+        background: #F9F9F9;
+        padding-top: 50px;
+        padding-bottom: 54px;
+        margin-top: 79px;
+
+        &__title {
+            color: #2F6DCE;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #FFFFFF;
+            box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            width: 842px;
+            margin: 33px auto;
+            position: relative;
+            overflow: hidden;
+            padding-left: 100px;
+        }
+    }
+
+    &-card {
+        &__disc {
+            transform: rotate(270deg);
+            color: #2D2D2D;
+            font-size: 32px;
+            font-weight: bold;
+            background: #FF3939;
+            padding: 8px 45px;
+            position: absolute;
+            left: -64px;
+        }
+
+        &__title {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: start;
+            text-transform: uppercase;
+            color: #2D2D2D;
+
+            span {
+                color: #2F6DCE;
+                font-size: 32px;
+            }
+        }
+
+        &__price {
+            background: #2F6DCE;
+            color: #fff;
+            padding: 50px 20px;
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            span {
+                display: flex;
+                align-items: flex-end;
+                font-size: 42px;
+                font-weight: bold;
+
+                p {
+                    font-size: 24px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
+}

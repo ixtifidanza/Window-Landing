@@ -1,0 +1,98 @@
+.banner {
+    margin-top: 46px;
+    display: flex;
+
+    &-right {
+        &__block {
+            background: url(../../assets/img/banner.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            width: 691px;
+        }
+
+        &__btns {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60px;
+        }
+
+        &__btn {
+            width: 450px;
+            height: 86px;
+            background: rgba(245, 248, 254, 0.7);
+            backdrop-filter: blur(8px);
+            border-radius: 6px;
+            font-size: 24px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            margin-top: 9px;
+            outline: none;
+            border: none;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                background: url(../../../assets/img/banner-btn-2.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                left: -25px;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        &__icon {
+            margin-right: 26px;
+        }
+    }
+
+    &-left {
+        &__block {
+            width: 691px;
+            position: relative;
+        }
+
+        &__title {
+            color: #2F6DCE;
+            font-size: 84px;
+            margin-bottom: 0;
+        }
+
+        &__text {
+            font-size: 24px;
+            font-weight: 500;
+            color: #484848;
+        }
+
+        &__vector {
+            position: absolute;
+            height: 93px;
+            left: 379.641px;
+            top: 313.672px;
+        }
+
+        &__btn {
+            margin-top: 80px;
+        }
+
+        &__link {
+            color: #2F6DCE;
+            border: 2px solid #2F6DCE;
+            border-radius: 39px;
+            font-size: 22px;
+            padding: 24px 53px;
+        }
+
+        &__txt {
+            width: 305px;
+            margin: 38px 0;
+            text-align: center;
+            color: #484848;
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+.block-mode {
+    padding: 90px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #E8F6FF;
+
+    &__title {
+        background: url(../img/right-title.png);
+        background-repeat: no-repeat;
+        width: 1000px;
+        text-align: right;
+        margin-left: auto;
+    }
+
+    &__content {
+        margin-left: 0;
+        margin-right: 81px;
+    }
+
+    &__swipper {
+        background: #fff;
+    }
+
+    &__img {
+        margin-bottom: 34px;
+    }
+
+    &__first {
+        border: 2px solid #fff;
+        border-radius: 6px;
+    }
+    &__swipper {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+}

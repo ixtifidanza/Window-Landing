@@ -1,0 +1,19 @@
+.block-prepar {
+    margin: 90px 0;
+    &__img {
+        margin-bottom: 30px;
+    }
+    &__disc {
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: 8px 25px;
+        position: absolute;
+        left: -64px;
+    }
+    &__price {
+        span {
+            padding: 8px 20px;
+        }
+    }
+
+}
